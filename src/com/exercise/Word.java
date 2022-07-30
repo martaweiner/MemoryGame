@@ -7,14 +7,17 @@ public class Word{
     private String text;
 
     public Word(String text){
+
         this.text= text;
     }
 
     public String getText() {
+
         return text;
     }
 
     public void uncover(){
+
         show = true;
     }
 
@@ -22,6 +25,7 @@ public class Word{
         return show;
     }
     public void cover(){
+
         show = false;
     }
 
