@@ -28,8 +28,8 @@ public class Word{
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Word)) return false;
-        Word word = (Word) o;
+        if (!(o instanceof com.exercise.Word)) return false;
+        com.exercise.Word word = (com.exercise.Word) o;
         return word.getText().equals(text);
     }
 }
