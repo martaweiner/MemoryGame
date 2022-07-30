@@ -26,7 +26,7 @@ public class Game {
         FileReader fr = null;
         // opening a file:
         try {
-            fr = new FileReader("C:\\Users\\User\\Desktop\\JavaAcademynew\\JavaAcademy\\Words.txt");
+            fr = new FileReader("Words.txt");
         } catch (FileNotFoundException e) {
             System.out.println("Error during loading a file");
             System.exit(1);
